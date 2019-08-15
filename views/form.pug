@@ -1,0 +1,13 @@
+html
+    head
+        link(rel="stylesheet", href="stylesheets/main.css")
+    body
+        form(action='/api' method ='POST') 
+            p Name
+            input(type="text" name ="name")
+            br
+            p Age
+            input(type="text" name ="age")
+            br
+            button(type="submit") send
+        
